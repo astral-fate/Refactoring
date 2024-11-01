@@ -1,0 +1,22 @@
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    z-index: 1000;
+}
+
+.post-card {
+    transition: transform 0.2s;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        margin-top: 2rem;
+    }
+}

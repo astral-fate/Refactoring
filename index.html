@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Advanced Blog - Articles about web development and technology">
+    <title>My Advanced Blog</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-light py-3">
+        <nav class="navbar navbar-expand-lg navbar-light container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">My Advanced Blog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mt-5">
+        <div class="row">
+            <!-- Blog Posts Section -->
+            <div class="col-lg-8">
+                <section class="posts">
+                    <article class="card post-card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">First Advanced Article Title</h2>
+                            <p class="card-text">This is some sample text for the first article. The full content of the
+                                article could be displayed here. Feel free to add more content and style
+                                it as needed.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="card post-card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">Second Advanced Article Title</h2>
+                            <p class="card-text">This is some sample text for the second article. The full content of the
+                                article could be displayed here. Experiment with different layouts and
+                                design enhancements.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="card post-card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">Third Advanced Article Title</h2>
+                            <p class="card-text">This is some sample text for the third article. Challenge yourself to
+                                add more features and make the blog more interactive and user-friendly.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </article>
+                </section>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">About the Blog</h3>
+                        <p class="card-text">This blog is more advanced, requiring enhancements and restructuring.
+                            Consider adding more sections and making it dynamic with JavaScript.</p>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Recent Posts</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="#" class="text-decoration-none">How to Improve Your Blog</a></li>
+                            <li class="list-group-item"><a href="#" class="text-decoration-none">Understanding CSS Grid</a></li>
+                            <li class="list-group-item"><a href="#" class="text-decoration-none">10 JavaScript Tips and Tricks</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer with Contact Form -->
+    <footer class="bg-light mt-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Contact Us</h3>
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                  
+                </div>
+            </div>
+        </div>
+        <p class="text-center mt-4">All Rights Reserved © 2024 | Designed by Fatma</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="btn btn-primary back-to-top" id="backToTop" aria-label="Back to top">
+        ↑
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="js.js"></script>
+    
+</body>
+</html>
